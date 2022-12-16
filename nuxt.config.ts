@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/tailwindcss'
   ],
+
   apollo: {
     clients: {
       default: {
@@ -12,4 +13,8 @@ export default defineNuxtConfig({
       }
     }
   },
+
+  image: {
+    domains: ['rickandmortyapi.com']
+  }
 })
