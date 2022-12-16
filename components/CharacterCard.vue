@@ -1,7 +1,7 @@
 <template>
   <article>
     <NuxtImg :src="image" />
-    <div>
+    <div class="text-xl">
       <h3>{{ name }}</h3>
       <p>{{ status }}</p>
       <p>{{ species }}</p>
@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-const properties = defineProps({
+const props = defineProps({
   id: {
     type: String,
     required: true
