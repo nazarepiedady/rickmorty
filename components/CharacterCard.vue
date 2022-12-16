@@ -12,7 +12,10 @@
 
 <script lang="ts" setup>
 const properties = defineProps({
-  id: {},
+  id: {
+    type: String,
+    required: true
+  },
   name: {
     type: String,
     required: true

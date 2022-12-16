@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="text-xl">{{ data }}</p>
+    <CharacterCard v-for="character in data.characters.results" />
   </div>
 </template>
 
