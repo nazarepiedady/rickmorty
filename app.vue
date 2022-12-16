@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{{ data }}</p>
+    <p class="text-xl">{{ data }}</p>
   </div>
 </template>
 

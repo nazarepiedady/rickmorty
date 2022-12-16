@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/apollo',
     //'@nuxt/image-edge',
-    //'@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss'
   ],
   apollo: {
     clients: {
