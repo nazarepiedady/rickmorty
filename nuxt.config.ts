@@ -4,5 +4,10 @@ export default defineNuxtConfig({
     '@nuxt/image-edge',
     '@nuxtjs/apollo',
     '@nuxtjs/tailwindcss'
-  ]
+  ],
+  apollo: {
+    clients: {
+      httpEndpoint: 'https://rickandmortyapi.com/graphql'
+    }
+  },
 })
