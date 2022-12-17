@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container flex flex-wrap gap-y-4 mx-auto">
     <CharacterCard v-for="character in data.characters.results" :key="character.id" :id="character.id"
       :name="character.name" :image="character.image" :status="character.status" :species="character.species"
       :location="character.location.name" />
