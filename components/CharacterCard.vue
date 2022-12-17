@@ -1,11 +1,11 @@
 <template>
-  <article>
+  <article class="flex flex-wrap gap-y-1 basis-1/3">
     <NuxtImg :src="image" />
-    <div class="text-xl">
-      <h3>{{ name }}</h3>
-      <p>{{ status }}</p>
-      <p>{{ species }}</p>
-      <p>{{ location }}</p>
+    <div class="text-xl sm:mt-4">
+      <h2>Name: {{ name }}</h2>
+      <p>Status: {{ status }}</p>
+      <p>Species: {{ species }}</p>
+      <p>Location: {{ location }}</p>
     </div>
   </article>
 </template>
